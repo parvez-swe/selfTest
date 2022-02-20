@@ -43,7 +43,7 @@ function promptMe(){
                   // let question = prompt("Do want to know who is gonna wife of Md Parvez Mushara? Yes or No").toUpperCase();
 
                   if(namee === "FARJANA" || namee === "YEASMIN"|| namee === "ALE" || namee==="FARJAN YEASMIN ALE"){
-                        document.write("Hi dear Farjana Yeasmin Ale! Many many congratulations to you. You are wanna be the wife of Mohammad Parvez Musharaf. You are so good we know .Musharaf gonna marry you❤️");
+                        document.write("Hi dear Farjana Yeasmin Ale! Many many congratulations to you. You are gonna be the wife of Mohammad Parvez Musharaf. You are so good we know .Musharaf gonna marry you❤️");
                   }
                   else if( namee ==="ANJUMAN" || namee ==="ANJUMAN ARA" || namee === "ANJUMAN ARA BEGUM"){
                         document.write("আসসালামুয়ালাইকুম আম্মু! মোশারফ ও এলি আপনাকে খুব ভালোবাসেন, তারা আপনার শন্তান হতে পেরে গর্ভিত");
