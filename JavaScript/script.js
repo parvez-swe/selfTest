@@ -1,41 +1,4 @@
-// console.log("Bismillahir Rahmanir Rahim");
 
-// Ask me who is the wife of Mohammad Parvez Musharaf
-// let firstName = "FARJANA";
-// let midName = "YEASMIN";
-// let lastName = "ALE";
-// let fullName= firstName + midName + lastName;
-
-// let names = prompt("What is your name ?").toUpperCase();
-// let quis = prompt ("ask me about Mohammad Parvez Musharaf Lover...");
-// let cong=""
-      
-// if(names === fullName){
-      
-// console.log(cong); 
-// }
-
-// else{
-//        console.log(`Hi ${names} we are glad to inform you that our "Mohammad Parvez Musharaf" gonna marry "Farjana Yeasmisn Ale". Acording to Mohammad Parvez Musaharaf, She is the best lady of the world.`)
-// }
-// password must be 6+ character
-
-// const password = prompt("Please enter your password"); 
-// if(password.length>=6){
-//       if(password.indexOf(' ') === -1){
-//             console.log("Valid Password");
-//             }
-//       else {
-//             console.log("password doesn't contain spaces");
-//       }
-            
-//       }
-      
-// else{
-//       console.log("password too short! Must be 6+ Character");
-// }
-      // AMJUMAN ARA BEGUM
-      // MAKBUL HOSSAIN SARKER
 
 function promptMe(){
 
@@ -71,3 +34,22 @@ function promptMe(){
                         document.write("Sorry I dont know...😬")
                   }
 }
+
+//color generator code are below:
+const h3 = document.querySelector('#colorGeneratorh');
+const buttons = document.querySelector('#colorGenerator');
+
+const randomColor = () =>{
+      const r = Math.floor(Math.random() * 255);
+      const g = Math.floor(Math.random() * 255);
+      const b = Math.floor(Math.random() * 255);
+      return `rgb(${r}, ${g}, ${b})`; 
+}
+
+
+
+buttons.addEventListener('click',function (){
+      const newColor = randomColor();
+      document.body.style.backgroundColor = newColor;
+      h3.innerHTML=`HI I'm ${newColor}`;
+})
