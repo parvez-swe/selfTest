@@ -22,7 +22,7 @@ function promptMe(){
                         intro.innerHTML ="আসসালামুয়ালাইকুম আব্বু! মোশারফ ও এলি আপনাকে খুব ভালোবাসেন, এক জন শিক্ষক কে বাবা হিসেবে পেয়ে তারা গর্ভিত";
                   }
                   else if(namee === "TAWHID" || namee === "TAWHIDUL ISLAM" || namee ==="TAWHIDUL ISLAM TAWHID" || namee ==="NANNU"|| namee==="TAWHIDUL ISLAM NANNU") {
-                        intropic.src ='image/tt.jpeg';
+                        intropic.src ='/image/tt.jpeg';
                         intro.classList.add('text-info');
                         intro.innerHTML ="Founder ans CEO of Tawhid Solution Academy.Father of Tawfiq and  Elder brother of Farjana Yeasmin Ale.";
                   }
