@@ -3,7 +3,7 @@
 function promptMe(){
                   const intro = document.querySelector('#intro');
                   // const intropic = document.querySelector('#intropic');
-                  const intropic = document.createElement('img');
+                  // const intropic = document.createElement('img');
                   
               
 
@@ -29,7 +29,7 @@ function promptMe(){
                         // h1.after(img);
                         // intropic.setAttribute('id','intropic');
                         // intropic.setAttribute('class','rounded mx-auto d-block');
-                        intropic.src ='/image/tt.jpeg';
+                        // intropic.src ='/image/tt.jpeg';
                         intro.classList.add('text-info');
                         intro.innerHTML ="Founder ans CEO of Tawhid Solution Academy.Father of Tawfiq and  Elder brother of Farjana Yeasmin Ale.";
                   }
