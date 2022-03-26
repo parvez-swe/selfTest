@@ -2,7 +2,10 @@
 
 function promptMe(){
                   const intro = document.querySelector('#intro');
-                  const intropic = document.querySelector('#intropic');
+                  // const intropic = document.querySelector('#intropic');
+                  const intropic = document.createElement('img');
+                  
+              
 
 
                   let namee = prompt("What is your name?").toUpperCase();
@@ -22,6 +25,10 @@ function promptMe(){
                         intro.innerHTML ="আসসালামুয়ালাইকুম আব্বু! মোশারফ ও এলি আপনাকে খুব ভালোবাসেন, এক জন শিক্ষক কে বাবা হিসেবে পেয়ে তারা গর্ভিত";
                   }
                   else if(namee === "TAWHID" || namee === "TAWHIDUL ISLAM" || namee ==="TAWHIDUL ISLAM TAWHID" || namee ==="NANNU"|| namee==="TAWHIDUL ISLAM NANNU") {
+                        
+                        // h1.after(img);
+                        // intropic.setAttribute('id','intropic');
+                        // intropic.setAttribute('class','rounded mx-auto d-block');
                         intropic.src ='/image/tt.jpeg';
                         intro.classList.add('text-info');
                         intro.innerHTML ="Founder ans CEO of Tawhid Solution Academy.Father of Tawfiq and  Elder brother of Farjana Yeasmin Ale.";
